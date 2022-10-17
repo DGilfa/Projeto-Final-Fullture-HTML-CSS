@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    color: var(--link-padrao);
+    text-decoration: none;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.btn-search {
+    position: absolute;
+    cursor: pointer;
+    z-index: 2;
+    background-image: url(../img/Icones_lupa.png);
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+    width: 8%;
+    height: 1vh;
+    margin: 0.2em 0 0 -10%;
+    padding: 3em 0 0 0;
+}
+
+.btn-faleconosco {
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+    color: var(--link-padrao);
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 100%;
+    height: 40px;
+    line-height: 5px;
+}
+
+@media screen and (max-width: 768px) {  
+}

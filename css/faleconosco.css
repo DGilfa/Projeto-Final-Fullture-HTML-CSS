@@ -1,0 +1,46 @@
+.grade-form {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    padding: 1em 0;  
+}
+
+.faleconosco form input, .faleconosco form textarea  {
+    width: 100%;
+    padding: 1.7em 1%;
+    margin: 1em 0;
+    border: none;
+}
+
+.faleconosco button {
+    background-color: orange;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .grade-form, .grade-form form input.btn-faleconosco {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding: 1em 0 1em 2%;  
+    }
+
+    .faleconosco form input, .faleconosco form textarea  {
+        width: 96%;
+    }
+
+    .btn-faleconosco {
+        display: block;
+        text-align: center;
+        margin: 0 0 0 2%;
+        padding: 0 0 0 2%;
+    }
+    .btn-faleconosco {
+        width: 96% !important;
+        margin: 0 0 0 2% !important;
+    }
+
+}

@@ -1,0 +1,99 @@
+header {
+    background: var(--fundo-header); 
+    max-height: 82vh;
+}
+
+.container-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    height: 12vh;
+    gap: 30px;
+}
+
+.logo {
+ flex-shrink: 30;
+ flex-basis: auto;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.pesquisar {
+    position: relative;
+    flex-basis: 50%;
+}
+
+.campo-pesquisa {
+    z-index: 1;
+    width: 99%;
+    padding: 3%;
+    border-radius: 10px;
+    border: none;
+}
+
+.login {
+    flex-basis: 15%;
+}
+
+.carrinho {
+    flex-basis: auto;
+}
+
+.login p, .carrinho p {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.login span, .carrinho span {
+    font-size: 0.875em;
+}
+
+header img.img-destaque {
+    width: 100%;
+    background-size: cover;
+    height: 70vh;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container-header {
+        flex-wrap: wrap;
+        height: 40vh;
+    }
+
+    .logo {
+        order: 0;
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin: 0;
+    }
+
+    .logo img {
+        width: 30%;
+        margin: 0em 0 0 0;
+    }
+
+    .pesquisar {
+        order:1;
+        position: relative;
+        flex-basis: 90%;
+        margin-top: 0;
+    }
+
+    .login {
+        flex-basis: 25%;
+    }
+    .login, .carrinho {
+        width: auto;
+    }
+    header img.img-destaque {
+        width: 100%;
+        background-size: cover;
+        height: 42vh;
+    }
+}

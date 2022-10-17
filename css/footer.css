@@ -1,0 +1,27 @@
+footer {
+    background-color: var(--fundo-header);
+    text-align: center;
+    line-height: 10vh;
+    color: var(--link-padrao);
+    height: 20vh;
+}
+
+footer nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+
+footer nav ul li {
+    padding: 0 1% 0 1%;
+}
+
+footer nav ul li a{
+    color: write;
+    font-weight: bold;
+}
+
+footer nav ul li a:hover {
+    text-decoration: underline;
+}
